@@ -1,0 +1,237 @@
+/*LAYOUT AND SPACING*/
+nav {
+  height: 40px;
+  width: 100%;
+  background-color: #EAE0D5;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.nav-link {
+  width: 25%;
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  color: #22333B;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding: 5px;
+  width: 100%;
+}
+
+.resume-links {
+  flex: 1;
+  margin: 1em;
+  height: 200px;
+  position: sticky;
+  display: flex;
+  flex-direction: column;
+  top: 100px;
+  justify-content: center;
+  align-items: center;
+}
+.resume {
+  flex: 1;
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+  width: 80%;
+}
+
+.portfolio-container {
+  margin-top: 100px;
+  display: flex;
+  width: 80%;
+  margin: 1em;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.portfolio-img {
+  height: 300px;
+  margin: 1em;
+  background-size: 900px 550px;
+  background-repeat: no-repeat;
+  flex: 1;
+  display: flex;
+  width: 100%;
+  border: solid 5px black;
+}
+.portfolio-img:hover .portfolio-text {
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+ .portfolio-text {
+   display: none;
+   color: white;
+   flex:1;
+   align-items: center;
+   justify-content: center;
+   vertical-align: middle;
+   width: 100%;
+ }
+
+
+.content-container {
+  flex: 8;
+  justify-content: center;
+  align-items: center;
+  margin: 1em;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  height: auto;
+}
+.professional-bio, .personal-bio {
+  margin-top: 100px;
+  width: 100%;
+  height: auto;
+  margin: 1em;
+}
+.footer {
+  bottom: 0px;
+  width: 100%;
+  height: 300px;
+  background-color: #EAE0D5;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-text {
+ display: inline-block;
+ width: 550px;
+ padding: 20px;
+}
+ .picture {
+   height: 200px;
+   width: 250px;
+   display: inline;
+   margin: 10px;
+ }
+.profile-picture {
+  height: 200px;
+  width: 250px;
+  background-size: 250px 200px;
+  background-repeat: no-repeat;
+  margin: 10px;
+}
+
+.toolkit-container {
+  margin-top: 100px;
+  width: 100%;
+  margin: 1em;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-set {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 120px;
+  justify-content: center;
+  margin: auto;
+}
+
+.icon {
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-size: 80px 80px;
+  background-repeat: no-repeat;
+  margin: 5px;
+}
+.titles-titles-titles {
+  margin-top: 100px;
+  background-size: 1300px 900px;
+  background-repeat: no-repeat;
+  height: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.head-text {
+  background-color: green;
+  height: 300px;
+  width: 100%;
+  padding-top: 50px;
+}
+
+.border {
+  border: solid 5px green;
+  padding: 5px;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*TEXT AND TYPE*/
+/*font-family: 'PT Sans', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'EB Garamond', serif;*/
+h3 {
+  text-align: center;
+  font-family: 'EB Garamond', serif;
+}
+h1 {
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+  color: #EAE0D5;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.main-header {
+  font-size: 62px;
+}
+p, a {
+  font-family: 'PT Sans', sans-serif;
+  text-decoration: none;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #020202;
+}
+
+a:hover {
+  color: #008000;
+}
+a:visited {
+  color: #C6AC8F;
+}
+/*IMAGES*/
+.profile-picture {
+  background-image: url(profile.jpg)
+}
+.html {
+  background-image: url(html5.png);
+}
+.css {
+  background-image: url(css3.png);
+}
+.js {
+  background-image: url(js.png);
+}
+.ubuntu {
+  background-image: url(ubuntu.png);
+}
+.linux {
+  background-image: url(linux.png);
+}
+.api {
+  background-image: url(api_screenshot.png);
+}
+.web_storage {
+  background-image: url(web_storage.png);
+}
+.html_css {
+  background-image: url(html_css.png);
+}
+.titles-titles-titles {
+  background-image: url(background.jpg);
+}
